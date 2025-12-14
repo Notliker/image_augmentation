@@ -1,6 +1,6 @@
 ﻿import cv2
 import numpy as np
-from AugmentationBase import AugmentationBase
+from utils.AugmentationBase import AugmentationBase
 
 class RGBtoGrayScaleAugmentation(AugmentationBase):
     def __init__(self):

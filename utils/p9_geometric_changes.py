@@ -1,7 +1,7 @@
 ﻿import cv2
 import numpy as np
 import math
-from AugmentationBase import AugmentationBase
+from utils.AugmentationBase import AugmentationBase
 
 class ScalingAugmentation(AugmentationBase):
     def __init__(self, scale_x=1.0, scale_y=1.0):
