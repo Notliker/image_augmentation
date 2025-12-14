@@ -4,6 +4,6 @@
 
 /dataset
 /output
-/.vs
-/.__pycache__
-/utils/__pycache__
+__pycache__/
+.vs/
+*.pyc
